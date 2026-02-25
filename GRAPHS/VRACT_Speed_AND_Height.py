@@ -188,7 +188,7 @@ if __name__ == "__main__":
     plt.title('Высота', fontsize=14, fontweight='bold')
     plt.ylabel('Высота, м'); plt.xlabel('Время, с')
     plt.grid(True, alpha=0.3); plt.legend(); plt.tight_layout()
-    plt.savefig('Graph_Height_Fixed.png')
+    plt.savefig('Graph_Height.png')
 
     # --- График скорости ---
     plt.figure(figsize=(10, 6), dpi=150)
@@ -200,6 +200,6 @@ if __name__ == "__main__":
     plt.title('Скорость', fontsize=14, fontweight='bold')
     plt.ylabel('Скорость, м/с'); plt.xlabel('Время, с')
     plt.grid(True, alpha=0.3); plt.legend(); plt.tight_layout()
-    plt.savefig('Graph_Speed_Fixed.png')
+    plt.savefig('Graph_Speed.png')
 
-    print("Графики сохранены: Graph_Height_Fixed.png, Graph_Speed_Fixed.png")
+    print("Графики сохранены: Graph_Height.png, Graph_Speed.png")
