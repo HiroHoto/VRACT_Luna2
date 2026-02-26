@@ -110,8 +110,7 @@ def get_atmosphere(h):
 # Угол тангажа alpha — угол вектора скорости от горизонтали,
 # вычисляется как alpha = atan2(vy, vx) с поправкой на pitch_program.
 
-def ode_2d(y, t, phase):
-    x, vy_vec, vx, vy, m = y   # vy_vec не используется, убрал ниже
+
 
 # --- пересобранная функция ---
 def ode_2d(state, t, phase):
